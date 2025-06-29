@@ -49,40 +49,45 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(27, 39);
+            label1.Location = new Point(39, 57);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(58, 15);
+            label1.Size = new Size(91, 22);
             label1.TabIndex = 0;
             label1.Text = "Tanggal : ";
             // 
             // dateStart
             // 
-            dateStart.Location = new Point(91, 33);
+            dateStart.Location = new Point(130, 48);
+            dateStart.Margin = new Padding(4, 4, 4, 4);
             dateStart.Name = "dateStart";
-            dateStart.Size = new Size(200, 23);
+            dateStart.Size = new Size(284, 28);
             dateStart.TabIndex = 1;
             // 
             // dateEnd
             // 
-            dateEnd.Location = new Point(359, 33);
+            dateEnd.Location = new Point(513, 48);
+            dateEnd.Margin = new Padding(4, 4, 4, 4);
             dateEnd.Name = "dateEnd";
-            dateEnd.Size = new Size(200, 23);
+            dateEnd.Size = new Size(284, 28);
             dateEnd.TabIndex = 3;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(311, 39);
+            label2.Location = new Point(444, 57);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(24, 15);
+            label2.Size = new Size(34, 22);
             label2.TabIndex = 2;
             label2.Text = "s/d";
             // 
             // btnFind
             // 
-            btnFind.Location = new Point(588, 31);
+            btnFind.Location = new Point(840, 46);
+            btnFind.Margin = new Padding(4, 4, 4, 4);
             btnFind.Name = "btnFind";
-            btnFind.Size = new Size(89, 30);
+            btnFind.Size = new Size(127, 44);
             btnFind.TabIndex = 4;
             btnFind.Text = "Cari";
             btnFind.UseVisualStyleBackColor = true;
@@ -91,43 +96,50 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(27, 178);
+            dataGridView1.Location = new Point(39, 261);
+            dataGridView1.Margin = new Padding(4, 4, 4, 4);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(748, 160);
+            dataGridView1.RowHeadersWidth = 62;
+            dataGridView1.Size = new Size(1069, 235);
             dataGridView1.TabIndex = 5;
             dataGridView1.CellClick += dataGridView1_CellClick;
             // 
             // dataGridView2
             // 
             dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Location = new Point(27, 369);
+            dataGridView2.Location = new Point(39, 541);
+            dataGridView2.Margin = new Padding(4, 4, 4, 4);
             dataGridView2.Name = "dataGridView2";
-            dataGridView2.Size = new Size(748, 150);
+            dataGridView2.RowHeadersWidth = 62;
+            dataGridView2.Size = new Size(1069, 220);
             dataGridView2.TabIndex = 6;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(27, 351);
+            label3.Location = new Point(39, 515);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(94, 15);
+            label3.Size = new Size(150, 22);
             label3.TabIndex = 7;
             label3.Text = "Detail Transaksi :";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(27, 77);
+            label4.Location = new Point(39, 113);
+            label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(33, 15);
+            label4.Size = new Size(50, 22);
             label4.TabIndex = 8;
             label4.Text = "Hasil";
             // 
             // btnReset
             // 
-            btnReset.Location = new Point(683, 31);
+            btnReset.Location = new Point(976, 46);
+            btnReset.Margin = new Padding(4, 4, 4, 4);
             btnReset.Name = "btnReset";
-            btnReset.Size = new Size(92, 30);
+            btnReset.Size = new Size(131, 44);
             btnReset.TabIndex = 9;
             btnReset.Text = "Reset";
             btnReset.UseVisualStyleBackColor = true;
@@ -136,36 +148,40 @@
             // lblTotalTrans
             // 
             lblTotalTrans.AutoSize = true;
-            lblTotalTrans.Location = new Point(27, 102);
+            lblTotalTrans.Location = new Point(39, 150);
+            lblTotalTrans.Margin = new Padding(4, 0, 4, 0);
             lblTotalTrans.Name = "lblTotalTrans";
-            lblTotalTrans.Size = new Size(90, 15);
+            lblTotalTrans.Size = new Size(145, 22);
             lblTotalTrans.TabIndex = 10;
             lblTotalTrans.Text = "Total Transaksi :";
             // 
             // lblTotalPendap
             // 
             lblTotalPendap.AutoSize = true;
-            lblTotalPendap.Location = new Point(27, 126);
+            lblTotalPendap.Location = new Point(39, 185);
+            lblTotalPendap.Margin = new Padding(4, 0, 4, 0);
             lblTotalPendap.Name = "lblTotalPendap";
-            lblTotalPendap.Size = new Size(108, 15);
+            lblTotalPendap.Size = new Size(168, 22);
             lblTotalPendap.TabIndex = 11;
             lblTotalPendap.Text = "Total Pendapatan : ";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(27, 151);
+            label7.Location = new Point(39, 222);
+            label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
-            label7.Size = new Size(82, 15);
+            label7.Size = new Size(132, 22);
             label7.TabIndex = 12;
             label7.Text = "List Transaksi :";
             // 
             // btnCetak
             // 
             btnCetak.Enabled = false;
-            btnCetak.Location = new Point(326, 538);
+            btnCetak.Location = new Point(466, 789);
+            btnCetak.Margin = new Padding(4, 4, 4, 4);
             btnCetak.Name = "btnCetak";
-            btnCetak.Size = new Size(122, 52);
+            btnCetak.Size = new Size(174, 77);
             btnCetak.TabIndex = 13;
             btnCetak.Text = "CETAK";
             btnCetak.UseVisualStyleBackColor = true;
@@ -173,9 +189,10 @@
             // 
             // FormLaporanPenjualan
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 22F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(819, 639);
+            BackColor = Color.DarkCyan;
+            ClientSize = new Size(1170, 924);
             Controls.Add(btnCetak);
             Controls.Add(label7);
             Controls.Add(lblTotalPendap);
@@ -190,6 +207,8 @@
             Controls.Add(label2);
             Controls.Add(dateStart);
             Controls.Add(label1);
+            Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "FormLaporanPenjualan";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormLaporanPenjualan";

@@ -112,102 +112,102 @@ namespace kasir
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(31, 27);
+            label1.Location = new Point(31, 34);
             label1.Name = "label1";
-            label1.Size = new Size(74, 15);
+            label1.Size = new Size(115, 22);
             label1.TabIndex = 0;
             label1.Text = "Kode Barang";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(32, 57);
+            label2.Location = new Point(32, 73);
             label2.Name = "label2";
-            label2.Size = new Size(79, 15);
+            label2.Size = new Size(120, 22);
             label2.TabIndex = 1;
             label2.Text = "Nama Barang";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(32, 91);
+            label3.Location = new Point(32, 105);
             label3.Name = "label3";
-            label3.Size = new Size(61, 15);
+            label3.Size = new Size(94, 22);
             label3.TabIndex = 2;
             label3.Text = "Harga Beli";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(31, 125);
+            label4.Location = new Point(32, 145);
             label4.Name = "label4";
-            label4.Size = new Size(62, 15);
+            label4.Size = new Size(97, 22);
             label4.TabIndex = 3;
             label4.Text = "Harga Jual";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(32, 160);
+            label5.Location = new Point(32, 179);
             label5.Name = "label5";
-            label5.Size = new Size(85, 15);
+            label5.Size = new Size(130, 22);
             label5.TabIndex = 4;
             label5.Text = "Jumlah Barang";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(31, 194);
+            label6.Location = new Point(31, 213);
             label6.Name = "label6";
-            label6.Size = new Size(83, 15);
+            label6.Size = new Size(130, 22);
             label6.TabIndex = 5;
             label6.Text = "Satuan Barang";
             // 
             // tbKodeBarang
             // 
-            tbKodeBarang.Location = new Point(134, 24);
+            tbKodeBarang.Location = new Point(167, 34);
             tbKodeBarang.Name = "tbKodeBarang";
-            tbKodeBarang.Size = new Size(166, 23);
+            tbKodeBarang.Size = new Size(166, 28);
             tbKodeBarang.TabIndex = 6;
             tbKodeBarang.KeyPress += textBox1_KeyPress;
             // 
             // tbNamaBarang
             // 
-            tbNamaBarang.Location = new Point(134, 54);
+            tbNamaBarang.Location = new Point(167, 68);
             tbNamaBarang.Name = "tbNamaBarang";
-            tbNamaBarang.Size = new Size(416, 23);
+            tbNamaBarang.Size = new Size(416, 28);
             tbNamaBarang.TabIndex = 7;
             // 
             // tbHargaBeli
             // 
-            tbHargaBeli.Location = new Point(134, 88);
+            tbHargaBeli.Location = new Point(167, 102);
             tbHargaBeli.Name = "tbHargaBeli";
-            tbHargaBeli.Size = new Size(166, 23);
+            tbHargaBeli.Size = new Size(166, 28);
             tbHargaBeli.TabIndex = 8;
             tbHargaBeli.KeyPress += tbHargaBeli_KeyPress;
             // 
             // tbHargaJual
             // 
-            tbHargaJual.Location = new Point(134, 122);
+            tbHargaJual.Location = new Point(167, 142);
             tbHargaJual.Name = "tbHargaJual";
-            tbHargaJual.Size = new Size(166, 23);
+            tbHargaJual.Size = new Size(166, 28);
             tbHargaJual.TabIndex = 9;
             tbHargaJual.KeyPress += tbHargaJual_KeyPress;
             // 
             // tbJumlah
             // 
-            tbJumlah.Location = new Point(134, 157);
+            tbJumlah.Location = new Point(167, 176);
             tbJumlah.Name = "tbJumlah";
-            tbJumlah.Size = new Size(166, 23);
+            tbJumlah.Size = new Size(166, 28);
             tbJumlah.TabIndex = 10;
             tbJumlah.KeyPress += tbJumlah_KeyPress;
             // 
             // tbSatuan
             // 
             tbSatuan.FormattingEnabled = true;
-            tbSatuan.Location = new Point(134, 191);
+            tbSatuan.Location = new Point(167, 213);
             tbSatuan.Name = "tbSatuan";
-            tbSatuan.Size = new Size(166, 23);
+            tbSatuan.Size = new Size(166, 30);
             tbSatuan.TabIndex = 11;
             // 
             // groupBox1
@@ -216,7 +216,7 @@ namespace kasir
             groupBox1.Controls.Add(btnHapus);
             groupBox1.Controls.Add(btnEdit);
             groupBox1.Controls.Add(btnInput);
-            groupBox1.Location = new Point(32, 230);
+            groupBox1.Location = new Point(32, 251);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(588, 73);
             groupBox1.TabIndex = 12;
@@ -266,16 +266,17 @@ namespace kasir
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(31, 320);
+            dataGridView1.Location = new Point(31, 330);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(589, 209);
+            dataGridView1.RowHeadersWidth = 62;
+            dataGridView1.Size = new Size(589, 199);
             dataGridView1.TabIndex = 13;
             // 
             // btnSearch
             // 
-            btnSearch.Location = new Point(306, 24);
+            btnSearch.Location = new Point(375, 34);
             btnSearch.Name = "btnSearch";
-            btnSearch.Size = new Size(87, 26);
+            btnSearch.Size = new Size(87, 28);
             btnSearch.TabIndex = 14;
             btnSearch.Text = "Cari";
             btnSearch.UseVisualStyleBackColor = true;
@@ -283,6 +284,7 @@ namespace kasir
             // 
             // FormMasterBarang
             // 
+            BackColor = Color.DarkCyan;
             ClientSize = new Size(654, 541);
             Controls.Add(btnSearch);
             Controls.Add(dataGridView1);
@@ -299,6 +301,7 @@ namespace kasir
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "FormMasterBarang";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form Master Barang";

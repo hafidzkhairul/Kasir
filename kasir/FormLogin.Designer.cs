@@ -39,42 +39,47 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(71, 104);
+            label1.Location = new Point(101, 152);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(62, 15);
+            label1.Size = new Size(98, 22);
             label1.TabIndex = 0;
             label1.Text = "Kode Kasir";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(71, 158);
+            label2.Location = new Point(101, 231);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(57, 15);
+            label2.Size = new Size(89, 22);
             label2.TabIndex = 1;
             label2.Text = "Password";
             // 
             // tbKode
             // 
-            tbKode.Location = new Point(164, 104);
+            tbKode.Location = new Point(234, 152);
+            tbKode.Margin = new Padding(4, 4, 4, 4);
             tbKode.Name = "tbKode";
-            tbKode.Size = new Size(163, 23);
+            tbKode.Size = new Size(231, 28);
             tbKode.TabIndex = 2;
             tbKode.KeyPress += textBox1_KeyPress;
             // 
             // tbPassword
             // 
-            tbPassword.Location = new Point(164, 155);
+            tbPassword.Location = new Point(234, 227);
+            tbPassword.Margin = new Padding(4, 4, 4, 4);
             tbPassword.Name = "tbPassword";
-            tbPassword.Size = new Size(163, 23);
+            tbPassword.Size = new Size(231, 28);
             tbPassword.TabIndex = 3;
             tbPassword.KeyPress += textBox2_KeyPress;
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(164, 208);
+            btnLogin.Location = new Point(234, 305);
+            btnLogin.Margin = new Padding(4, 4, 4, 4);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(75, 23);
+            btnLogin.Size = new Size(107, 33);
             btnLogin.TabIndex = 4;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
@@ -82,9 +87,10 @@
             // 
             // btnCancel
             // 
-            btnCancel.Location = new Point(245, 208);
+            btnCancel.Location = new Point(350, 305);
+            btnCancel.Margin = new Padding(4, 4, 4, 4);
             btnCancel.Name = "btnCancel";
-            btnCancel.Size = new Size(75, 23);
+            btnCancel.Size = new Size(107, 33);
             btnCancel.TabIndex = 5;
             btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = true;
@@ -92,15 +98,18 @@
             // 
             // FormLogin
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 22F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(475, 326);
+            BackColor = Color.DarkCyan;
+            ClientSize = new Size(679, 478);
             Controls.Add(btnCancel);
             Controls.Add(btnLogin);
             Controls.Add(tbPassword);
             Controls.Add(tbKode);
             Controls.Add(label2);
             Controls.Add(label1);
+            Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "FormLogin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form Login Aplikasi Kasir";

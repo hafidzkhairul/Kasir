@@ -63,65 +63,65 @@ namespace kasir
             label1.AutoSize = true;
             label1.Location = new Point(26, 38);
             label1.Name = "label1";
-            label1.Size = new Size(62, 15);
+            label1.Size = new Size(98, 22);
             label1.TabIndex = 0;
             label1.Text = "Kode Kasir";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(26, 67);
+            label2.Location = new Point(26, 70);
             label2.Name = "label2";
-            label2.Size = new Size(67, 15);
+            label2.Size = new Size(103, 22);
             label2.TabIndex = 1;
             label2.Text = "Nama Kasir";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(26, 96);
+            label3.Location = new Point(26, 105);
             label3.Name = "label3";
-            label3.Size = new Size(85, 15);
+            label3.Size = new Size(135, 22);
             label3.TabIndex = 2;
             label3.Text = "Password Kasir";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(26, 125);
+            label4.Location = new Point(26, 139);
             label4.Name = "label4";
-            label4.Size = new Size(62, 15);
+            label4.Size = new Size(99, 22);
             label4.TabIndex = 3;
             label4.Text = "Level Kasir";
             // 
             // tbKode
             // 
-            tbKode.Location = new Point(135, 35);
+            tbKode.Location = new Point(167, 35);
             tbKode.Name = "tbKode";
-            tbKode.Size = new Size(157, 23);
+            tbKode.Size = new Size(157, 28);
             tbKode.TabIndex = 4;
             tbKode.KeyPress += textBox1_KeyPress;
             // 
             // tbNama
             // 
-            tbNama.Location = new Point(135, 64);
+            tbNama.Location = new Point(167, 70);
             tbNama.Name = "tbNama";
-            tbNama.Size = new Size(399, 23);
+            tbNama.Size = new Size(399, 28);
             tbNama.TabIndex = 5;
             // 
             // tbPasswordKasir
             // 
-            tbPasswordKasir.Location = new Point(135, 93);
+            tbPasswordKasir.Location = new Point(167, 102);
             tbPasswordKasir.Name = "tbPasswordKasir";
-            tbPasswordKasir.Size = new Size(157, 23);
+            tbPasswordKasir.Size = new Size(157, 28);
             tbPasswordKasir.TabIndex = 6;
             // 
             // cbLevel
             // 
             cbLevel.FormattingEnabled = true;
-            cbLevel.Location = new Point(135, 122);
+            cbLevel.Location = new Point(167, 139);
             cbLevel.Name = "cbLevel";
-            cbLevel.Size = new Size(157, 23);
+            cbLevel.Size = new Size(157, 30);
             cbLevel.TabIndex = 7;
             // 
             // groupBox1
@@ -130,7 +130,7 @@ namespace kasir
             groupBox1.Controls.Add(btnHapus);
             groupBox1.Controls.Add(btnEdit);
             groupBox1.Controls.Add(btnInput);
-            groupBox1.Location = new Point(26, 160);
+            groupBox1.Location = new Point(26, 172);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(508, 73);
             groupBox1.TabIndex = 8;
@@ -182,12 +182,13 @@ namespace kasir
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(26, 251);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(508, 169);
             dataGridView1.TabIndex = 9;
             // 
             // btnSearch
             // 
-            btnSearch.Location = new Point(298, 34);
+            btnSearch.Location = new Point(330, 35);
             btnSearch.Name = "btnSearch";
             btnSearch.Size = new Size(83, 24);
             btnSearch.TabIndex = 10;
@@ -197,6 +198,7 @@ namespace kasir
             // 
             // FormMasterKasir
             // 
+            BackColor = Color.DarkCyan;
             ClientSize = new Size(591, 432);
             Controls.Add(btnSearch);
             Controls.Add(dataGridView1);
@@ -209,6 +211,7 @@ namespace kasir
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "FormMasterKasir";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form Kasir";

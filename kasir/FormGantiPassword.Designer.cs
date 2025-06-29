@@ -39,40 +39,45 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(82, 45);
+            label1.Location = new Point(117, 66);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(146, 15);
+            label1.Size = new Size(224, 22);
             label1.TabIndex = 0;
             label1.Text = "Masukkan Password Lama";
             // 
             // tbPwOld
             // 
-            tbPwOld.Location = new Point(82, 63);
+            tbPwOld.Location = new Point(117, 93);
+            tbPwOld.Margin = new Padding(4, 5, 4, 5);
             tbPwOld.Name = "tbPwOld";
-            tbPwOld.Size = new Size(235, 23);
+            tbPwOld.Size = new Size(334, 28);
             tbPwOld.TabIndex = 1;
             // 
             // tbPwNew
             // 
-            tbPwNew.Location = new Point(82, 122);
+            tbPwNew.Location = new Point(117, 178);
+            tbPwNew.Margin = new Padding(4, 5, 4, 5);
             tbPwNew.Name = "tbPwNew";
-            tbPwNew.Size = new Size(235, 23);
+            tbPwNew.Size = new Size(334, 28);
             tbPwNew.TabIndex = 3;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(82, 104);
+            label2.Location = new Point(117, 153);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(141, 15);
+            label2.Size = new Size(218, 22);
             label2.TabIndex = 2;
             label2.Text = "Masukkan Password Baru";
             // 
             // btnSubmit
             // 
-            btnSubmit.Location = new Point(100, 167);
+            btnSubmit.Location = new Point(143, 244);
+            btnSubmit.Margin = new Padding(4, 5, 4, 5);
             btnSubmit.Name = "btnSubmit";
-            btnSubmit.Size = new Size(75, 23);
+            btnSubmit.Size = new Size(107, 33);
             btnSubmit.TabIndex = 4;
             btnSubmit.Text = "Submit";
             btnSubmit.UseVisualStyleBackColor = true;
@@ -80,9 +85,10 @@
             // 
             // btnCancel
             // 
-            btnCancel.Location = new Point(216, 167);
+            btnCancel.Location = new Point(309, 244);
+            btnCancel.Margin = new Padding(4, 5, 4, 5);
             btnCancel.Name = "btnCancel";
-            btnCancel.Size = new Size(75, 23);
+            btnCancel.Size = new Size(107, 33);
             btnCancel.TabIndex = 5;
             btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = true;
@@ -90,15 +96,18 @@
             // 
             // FormGantiPassword
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 22F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(382, 306);
+            BackColor = Color.DarkCyan;
+            ClientSize = new Size(546, 449);
             Controls.Add(btnCancel);
             Controls.Add(btnSubmit);
             Controls.Add(tbPwNew);
             Controls.Add(label2);
             Controls.Add(tbPwOld);
             Controls.Add(label1);
+            Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "FormGantiPassword";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormGantiPassword";

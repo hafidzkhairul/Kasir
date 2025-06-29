@@ -64,134 +64,149 @@
             // label1
             // 
             label1.BorderStyle = BorderStyle.Fixed3D;
-            label1.Location = new Point(816, 411);
+            label1.Location = new Point(1166, 685);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(100, 23);
+            label1.Size = new Size(143, 38);
             label1.TabIndex = 0;
             label1.Text = " Dibayar";
             // 
             // label2
             // 
             label2.BorderStyle = BorderStyle.Fixed3D;
-            label2.Location = new Point(22, 115);
+            label2.Location = new Point(31, 192);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(44, 23);
+            label2.Size = new Size(63, 38);
             label2.TabIndex = 1;
             label2.Text = "KODE";
             // 
             // lblJam
             // 
             lblJam.BorderStyle = BorderStyle.Fixed3D;
-            lblJam.Location = new Point(956, 43);
+            lblJam.Location = new Point(1366, 72);
+            lblJam.Margin = new Padding(4, 0, 4, 0);
             lblJam.Name = "lblJam";
-            lblJam.Size = new Size(100, 23);
+            lblJam.Size = new Size(143, 38);
             lblJam.TabIndex = 2;
             lblJam.Text = "val";
             // 
             // lblTanggal
             // 
             lblTanggal.BorderStyle = BorderStyle.Fixed3D;
-            lblTanggal.Location = new Point(956, 20);
+            lblTanggal.Location = new Point(1366, 33);
+            lblTanggal.Margin = new Padding(4, 0, 4, 0);
             lblTanggal.Name = "lblTanggal";
-            lblTanggal.Size = new Size(100, 23);
+            lblTanggal.Size = new Size(143, 38);
             lblTanggal.TabIndex = 3;
             lblTanggal.Text = "val";
             // 
             // label5
             // 
             label5.BorderStyle = BorderStyle.Fixed3D;
-            label5.Location = new Point(850, 43);
+            label5.Location = new Point(1214, 72);
+            label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(100, 23);
+            label5.Size = new Size(143, 38);
             label5.TabIndex = 4;
             label5.Text = "Jam";
             // 
             // label6
             // 
             label6.BorderStyle = BorderStyle.Fixed3D;
-            label6.Location = new Point(850, 20);
+            label6.Location = new Point(1214, 33);
+            label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
-            label6.Size = new Size(100, 23);
+            label6.Size = new Size(143, 38);
             label6.TabIndex = 5;
             label6.Text = "Tanggal";
             // 
             // lblTotal
             // 
             lblTotal.BorderStyle = BorderStyle.Fixed3D;
-            lblTotal.Location = new Point(922, 385);
+            lblTotal.Location = new Point(1317, 642);
+            lblTotal.Margin = new Padding(4, 0, 4, 0);
             lblTotal.Name = "lblTotal";
-            lblTotal.Size = new Size(134, 23);
+            lblTotal.Size = new Size(191, 38);
             lblTotal.TabIndex = 6;
             lblTotal.Text = "val";
             // 
             // label8
             // 
             label8.BorderStyle = BorderStyle.Fixed3D;
-            label8.Location = new Point(816, 385);
+            label8.Location = new Point(1166, 642);
+            label8.Margin = new Padding(4, 0, 4, 0);
             label8.Name = "label8";
-            label8.Size = new Size(100, 23);
+            label8.Size = new Size(143, 38);
             label8.TabIndex = 7;
             label8.Text = "Total";
             // 
             // label9
             // 
             label9.BorderStyle = BorderStyle.Fixed3D;
-            label9.Location = new Point(816, 434);
+            label9.Location = new Point(1166, 723);
+            label9.Margin = new Padding(4, 0, 4, 0);
             label9.Name = "label9";
-            label9.Size = new Size(100, 23);
+            label9.Size = new Size(143, 38);
             label9.TabIndex = 8;
             label9.Text = "Kembali";
             // 
             // label10
             // 
             label10.BorderStyle = BorderStyle.Fixed3D;
-            label10.Location = new Point(192, 117);
+            label10.Location = new Point(274, 195);
+            label10.Margin = new Padding(4, 0, 4, 0);
             label10.Name = "label10";
-            label10.Size = new Size(100, 23);
+            label10.Size = new Size(143, 38);
             label10.TabIndex = 9;
             label10.Text = "NAMA";
             // 
             // lblNamaBarang
             // 
             lblNamaBarang.BorderStyle = BorderStyle.Fixed3D;
-            lblNamaBarang.Location = new Point(298, 117);
+            lblNamaBarang.Location = new Point(426, 195);
+            lblNamaBarang.Margin = new Padding(4, 0, 4, 0);
             lblNamaBarang.Name = "lblNamaBarang";
-            lblNamaBarang.Size = new Size(206, 23);
+            lblNamaBarang.Size = new Size(294, 38);
             lblNamaBarang.TabIndex = 10;
             lblNamaBarang.Text = "val";
             // 
             // label12
             // 
             label12.BorderStyle = BorderStyle.Fixed3D;
-            label12.Location = new Point(510, 117);
+            label12.Location = new Point(729, 195);
+            label12.Margin = new Padding(4, 0, 4, 0);
             label12.Name = "label12";
-            label12.Size = new Size(66, 23);
+            label12.Size = new Size(94, 38);
             label12.TabIndex = 11;
             label12.Text = "HARGA";
             // 
             // lblHarga
             // 
             lblHarga.BorderStyle = BorderStyle.Fixed3D;
-            lblHarga.Location = new Point(582, 117);
+            lblHarga.Location = new Point(831, 195);
+            lblHarga.Margin = new Padding(4, 0, 4, 0);
             lblHarga.Name = "lblHarga";
-            lblHarga.Size = new Size(100, 23);
+            lblHarga.Size = new Size(143, 38);
             lblHarga.TabIndex = 12;
             lblHarga.Text = "val";
             // 
             // label14
             // 
             label14.BorderStyle = BorderStyle.Fixed3D;
-            label14.Location = new Point(816, 118);
+            label14.Location = new Point(1166, 197);
+            label14.Margin = new Padding(4, 0, 4, 0);
             label14.Name = "label14";
-            label14.Size = new Size(67, 23);
+            label14.Size = new Size(96, 38);
             label14.TabIndex = 13;
             label14.Text = "JUMLAH";
             // 
             // btnInsert
             // 
-            btnInsert.Location = new Point(981, 118);
+            btnInsert.Location = new Point(1401, 197);
+            btnInsert.Margin = new Padding(4, 5, 4, 5);
             btnInsert.Name = "btnInsert";
-            btnInsert.Size = new Size(75, 23);
+            btnInsert.Size = new Size(107, 38);
             btnInsert.TabIndex = 14;
             btnInsert.Text = "INSERT";
             btnInsert.UseVisualStyleBackColor = true;
@@ -200,16 +215,19 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(22, 160);
+            dataGridView1.Location = new Point(31, 267);
+            dataGridView1.Margin = new Padding(4, 5, 4, 5);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(1034, 222);
+            dataGridView1.RowHeadersWidth = 62;
+            dataGridView1.Size = new Size(1477, 370);
             dataGridView1.TabIndex = 15;
             // 
             // tbJumlahBeli
             // 
-            tbJumlahBeli.Location = new Point(889, 118);
+            tbJumlahBeli.Location = new Point(1270, 197);
+            tbJumlahBeli.Margin = new Padding(4, 5, 4, 5);
             tbJumlahBeli.Name = "tbJumlahBeli";
-            tbJumlahBeli.Size = new Size(86, 23);
+            tbJumlahBeli.Size = new Size(121, 31);
             tbJumlahBeli.TabIndex = 17;
             tbJumlahBeli.TextChanged += textBox2_TextChanged;
             tbJumlahBeli.KeyPress += textBox2_KeyPress;
@@ -217,17 +235,19 @@
             // lblKembali
             // 
             lblKembali.BorderStyle = BorderStyle.Fixed3D;
-            lblKembali.Location = new Point(922, 434);
+            lblKembali.Location = new Point(1317, 723);
+            lblKembali.Margin = new Padding(4, 0, 4, 0);
             lblKembali.Name = "lblKembali";
-            lblKembali.Size = new Size(134, 23);
+            lblKembali.Size = new Size(191, 38);
             lblKembali.TabIndex = 18;
             lblKembali.Text = "val";
             // 
             // tbDiBayar
             // 
-            tbDiBayar.Location = new Point(922, 411);
+            tbDiBayar.Location = new Point(1317, 685);
+            tbDiBayar.Margin = new Padding(4, 5, 4, 5);
             tbDiBayar.Name = "tbDiBayar";
-            tbDiBayar.Size = new Size(134, 23);
+            tbDiBayar.Size = new Size(190, 31);
             tbDiBayar.TabIndex = 19;
             tbDiBayar.TextChanged += textBox3_TextChanged;
             tbDiBayar.KeyPress += textBox3_KeyPress;
@@ -235,44 +255,49 @@
             // lblNoJual
             // 
             lblNoJual.BorderStyle = BorderStyle.Fixed3D;
-            lblNoJual.Location = new Point(128, 20);
+            lblNoJual.Location = new Point(183, 33);
+            lblNoJual.Margin = new Padding(4, 0, 4, 0);
             lblNoJual.Name = "lblNoJual";
-            lblNoJual.Size = new Size(100, 23);
+            lblNoJual.Size = new Size(143, 38);
             lblNoJual.TabIndex = 20;
             lblNoJual.Text = "val";
             // 
             // label17
             // 
             label17.BorderStyle = BorderStyle.Fixed3D;
-            label17.Location = new Point(22, 20);
+            label17.Location = new Point(31, 33);
+            label17.Margin = new Padding(4, 0, 4, 0);
             label17.Name = "label17";
-            label17.Size = new Size(100, 23);
+            label17.Size = new Size(143, 38);
             label17.TabIndex = 21;
             label17.Text = "Nomor Jual";
             // 
             // lblItem
             // 
             lblItem.BorderStyle = BorderStyle.Fixed3D;
-            lblItem.Location = new Point(710, 385);
+            lblItem.Location = new Point(1014, 642);
+            lblItem.Margin = new Padding(4, 0, 4, 0);
             lblItem.Name = "lblItem";
-            lblItem.Size = new Size(100, 23);
+            lblItem.Size = new Size(143, 38);
             lblItem.TabIndex = 22;
             lblItem.Text = "val";
             // 
             // label19
             // 
             label19.BorderStyle = BorderStyle.Fixed3D;
-            label19.Location = new Point(604, 385);
+            label19.Location = new Point(863, 642);
+            label19.Margin = new Padding(4, 0, 4, 0);
             label19.Name = "label19";
-            label19.Size = new Size(100, 23);
+            label19.Size = new Size(143, 38);
             label19.TabIndex = 23;
             label19.Text = "Item";
             // 
             // btnSimpan
             // 
-            btnSimpan.Location = new Point(22, 395);
+            btnSimpan.Location = new Point(31, 658);
+            btnSimpan.Margin = new Padding(4, 5, 4, 5);
             btnSimpan.Name = "btnSimpan";
-            btnSimpan.Size = new Size(156, 46);
+            btnSimpan.Size = new Size(223, 77);
             btnSimpan.TabIndex = 24;
             btnSimpan.Text = "SIMPAN";
             btnSimpan.UseVisualStyleBackColor = true;
@@ -281,44 +306,49 @@
             // label20
             // 
             label20.BorderStyle = BorderStyle.Fixed3D;
-            label20.Location = new Point(850, 66);
+            label20.Location = new Point(1214, 110);
+            label20.Margin = new Padding(4, 0, 4, 0);
             label20.Name = "label20";
-            label20.Size = new Size(100, 23);
+            label20.Size = new Size(143, 38);
             label20.TabIndex = 25;
             label20.Text = "Kasir";
             // 
             // lblKasir
             // 
             lblKasir.BorderStyle = BorderStyle.Fixed3D;
-            lblKasir.Location = new Point(956, 66);
+            lblKasir.Location = new Point(1366, 110);
+            lblKasir.Margin = new Padding(4, 0, 4, 0);
             lblKasir.Name = "lblKasir";
-            lblKasir.Size = new Size(100, 23);
+            lblKasir.Size = new Size(143, 38);
             lblKasir.TabIndex = 26;
             lblKasir.Text = "val";
             // 
             // label3
             // 
             label3.BorderStyle = BorderStyle.Fixed3D;
-            label3.Location = new Point(687, 117);
+            label3.Location = new Point(981, 195);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(44, 23);
+            label3.Size = new Size(63, 38);
             label3.TabIndex = 27;
             label3.Text = "STOK";
             // 
             // lblStok
             // 
             lblStok.BorderStyle = BorderStyle.Fixed3D;
-            lblStok.Location = new Point(737, 118);
+            lblStok.Location = new Point(1053, 197);
+            lblStok.Margin = new Padding(4, 0, 4, 0);
             lblStok.Name = "lblStok";
-            lblStok.Size = new Size(73, 23);
+            lblStok.Size = new Size(104, 38);
             lblStok.TabIndex = 28;
             lblStok.Text = "val";
             // 
             // tbKodeBarang
             // 
-            tbKodeBarang.Location = new Point(72, 115);
+            tbKodeBarang.Location = new Point(103, 192);
+            tbKodeBarang.Margin = new Padding(4, 5, 4, 5);
             tbKodeBarang.Name = "tbKodeBarang";
-            tbKodeBarang.Size = new Size(114, 23);
+            tbKodeBarang.Size = new Size(161, 31);
             tbKodeBarang.TabIndex = 30;
             tbKodeBarang.TextChanged += textBox1_TextChanged;
             tbKodeBarang.Enter += textBox1_Enter;
@@ -328,10 +358,11 @@
             // listBarang
             // 
             listBarang.FormattingEnabled = true;
-            listBarang.ItemHeight = 15;
-            listBarang.Location = new Point(72, 143);
+            listBarang.ItemHeight = 25;
+            listBarang.Location = new Point(103, 238);
+            listBarang.Margin = new Padding(4, 5, 4, 5);
             listBarang.Name = "listBarang";
-            listBarang.Size = new Size(432, 94);
+            listBarang.Size = new Size(615, 154);
             listBarang.TabIndex = 31;
             listBarang.Visible = false;
             listBarang.Click += listBarang_Click;
@@ -339,9 +370,10 @@
             // 
             // FormTransJual
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1103, 498);
+            BackColor = Color.DarkCyan;
+            ClientSize = new Size(1576, 830);
             Controls.Add(listBarang);
             Controls.Add(tbKodeBarang);
             Controls.Add(lblStok);
@@ -372,6 +404,7 @@
             Controls.Add(lblJam);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "FormTransJual";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form TransJual";
