@@ -19,9 +19,15 @@ namespace kasir
         {
             //cari data kasir
             //var cariUser = daftarKasir.Where(ksr => ksr.KodeKasir.Contains(textBox1.Text)).ToList();
-            var cariUser = daftarKasir.Select((value, index) => new { Value = value, Index = index }).Where(x => x.Value.KodeKasir.Contains(tbKode.Text)).ToList();
+            var cariUser = daftarKasir.Select((value, index) => new { Value = value, Index = index }).Where(x => x.Value.KodeKasir.Equals(tbKode.Text)).ToList();
 
-            if (cariUser.Count == 0 && cariUser[0].Value.PasswordKasir != tbPassword.Text)
+            if (cariUser.Count == 0)
+            {
+                MessageBox.Show("Data tidak ditemukan!");
+                return;
+            }
+
+            if (cariUser.Count > 0 && cariUser[0].Value.PasswordKasir != tbPassword.Text)
             {
                 MessageBox.Show("Password Salah");
                 return;
